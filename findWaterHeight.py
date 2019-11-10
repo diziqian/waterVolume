@@ -18,7 +18,6 @@ def main():
     rpos, max_num_r = get_max_height_right(lpos_max, len(Arr) - 1)
     voluem_total += get_water_volume_r(lpos_max, rpos, max_num_r)
 
-    i = 0
     while rpos < len(Arr) - 1:
         pos_max_right = rpos
         rpos, max_num_right = get_max_height_right(pos_max_right, len(Arr)-1)
